@@ -1,4 +1,5 @@
 import './App.css';
+import Box from './components/Box.jsx';
 
 function App() {
 
@@ -11,6 +12,10 @@ function App() {
   return (
     <div className="container-fluid">
       <div className="row">
+        <Box icon = "local_drink" color = "#3A85FF" value = "1.5" unit= "L" />
+        <Box icon = "directions_walk"  color = "black" value = "3000" unit = "steps"/>
+        <Box icon = "favorite" color = "red" value = "120" unit = "bpm"/>
+        <Box icon = "wb_sunny" color = "yellow" value = "-10" unit = "°C"/>
         <p>Temperature :  {temMin}</p>
         <p>{tempMax}</p>
         <p> Heart :{heartMin}</p>
@@ -18,7 +23,6 @@ function App() {
         <p>Steps : {stepsMin}</p>
         <p>{stepsMax}</p>
       </div>
-     <h2>Bonjour</h2>
      <h1 className="text-primary"> Hello !</h1>
     </div>
   );
