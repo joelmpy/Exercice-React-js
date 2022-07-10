@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/global.css"
-function Steps (props) {
+function Box (props) {
 
     const myStyle = {
         color : "black",
@@ -15,4 +15,4 @@ function Steps (props) {
     )
 }
 
-export default Steps
+export default Box
