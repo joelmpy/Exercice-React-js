@@ -7,14 +7,6 @@ function UserInfo (props) {
             <button onClick={props.addFunction}>+</button>
             <button onClick={props.subtractFunction}>-</button>
             <button onClick={props.resetFunction}>Reset</button>
-            <div>
-
-            <ul>
-                <li>{props.itemName}</li>
-                <li>{props.email}</li>
-                <li>{props.website}</li>
-              </ul>
-            </div>
         </div>
     )
 }
