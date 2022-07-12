@@ -11,6 +11,11 @@ function Box (props) {
            <span className="material-icons" style={{fontSize : "100px", color: props.color}}>{props.icon}</span>
            <p>{props.value}</p>
            <p>{props.unit}</p>
+           {
+
+            props.icon === "local_drink" ? null : 
+           <input type="range" min={props.min} max={props.max} value={props.value} onChange ={props.onChange} step = {props.icon === "directions_walk" ?"1000" : null}/> 
+           }
         </div>
     )
 }
