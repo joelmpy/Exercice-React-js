@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  background-color: #282c34;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 100px;
+  background: salmon;
+  transition: all ease ease-in-out 0.4s;
+}
+
+.animation {
+  background: lightblue;
+  transform: scale(1.3);
+}
+
